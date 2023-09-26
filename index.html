@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function mortadela(){
+            resultado.value = parseInt(cachorro1.value) + parseInt(cachorro2.value);
+        }
+        }
+        function multiplicar(){
+            resultado.value = parseInt(cachorro1.value) = parseInt(cachorro2.value);
+        }
+        function dividir(){
+            if(cachorro2.value == 0){
+                alert("erro, não divida por zero");
+            }else{
+                resultado.value = persefloat(cachorro1.value) / parsefloat(cachorro2.value);
+            }
+        }
+    </script>
+    <h1>soma de valores</h1>
+    valor 3: <input type="text" id="cachorro1" value="0"><br>
+    valor 2: <input type="text" id="cachorro2" value="0"><br>
+    <input type="button" value="somar" onclick="mortadela()">
+    <input type="button" value="multiplicar" onclick="multiplicar()">
+    <input type="button" value="dividir" onclick="dividir()"><br>
+    resultado: <input type="text" value="0" id="resultado">
+</body>
+</html>
